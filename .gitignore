@@ -1,0 +1,10 @@
+# 환경변수·시크릿 (커밋 금지)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# 토큰·키·인증
+*.key
+*credential*
+serviceAccount*.json
